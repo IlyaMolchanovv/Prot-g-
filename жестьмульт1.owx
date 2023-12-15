@@ -1,0 +1,3366 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/milp00ps/ontologies/2023/11/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/milp00ps/ontologies/2023/11/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/milp00ps/ontologies/2023/11/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#автор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#актер_озвучки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#звукооператор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#издательство"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#книга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#компания_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#композитор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#компьютерная_игра"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#монтажер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#мультфильм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#продюссер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#режиссер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#студия_анимации"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#сценарист"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#художник_постановщик"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#записал_звук"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#играть"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#издал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#написал_мелодию"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#написал_сценарий"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#написание_книги"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#озвучил"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#разработал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#смонтировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#создал_визуал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#спродюссировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#срежессировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#читать"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#адрес"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#бюджет"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#год"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_выхода_книги"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_издательства"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_автора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_автора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_актера_озвучки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_звукооператора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_композитора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_продюссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#длительность"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#жанр_игры"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#жанр_книги"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#жанр_мультфильма"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_автора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_звукооператора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_издательства"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_композитора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_монтажера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_мультфильма"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_продюссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_режиссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_студии_анимации"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_сценариста"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#язык"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#egmont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#etranges_libellules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exmo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#madagascar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paramount_pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shrek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toy_story"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toys_for_bob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#алек_соколов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#аль_нельсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#америка_феррера"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#анна_бельмер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#арон_уорнер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#бен_стиллер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#вики_дженсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#генри_джекман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гийом_аретос"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гленн_бергер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джада_пинкетт-смитт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джей_барушель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джерард_батлер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джим_варни"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джо_стиллман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_лассетер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_литгоу"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джосс_уидон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дин_деблуа"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дон_риклс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэвид_джеймс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэвид_швиммер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#история_игрушек"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#камерон_диас"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#кифер_сазерленд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#клэр_найт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#крессида_коуэлл"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#крис_рок"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#крис_сандерс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#кэти_дубовски"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#латифа_оау"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ли_анкрич"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#лиза_стюарт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мадагаскар"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#майкл_дж.флексер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#майкл_майерс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#майя_форбс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#марианн_брэндон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#марк_бертон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#марк_хаймен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мирей_сория"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#пьер-оливье_винсент"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ральф_эгглстон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#риз_уизерспун"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ричард_андерсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#роб_леттерман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#рой_ли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#рэйн_уилсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#рэнди_ньюман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сет_роген"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сим_эван-джонс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стив_джобс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стивен_колберт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стивен_спилберг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сюзан_кормен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сюзанн_берги"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#терри_россио"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тим_аллен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тим_джонсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тим_холлэнд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#том_макграт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#том_хэнкс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#уилл_арнетт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#уильям_стейт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#уоллес_шон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ханс_циммер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хью_лори"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#шеннон_джеффрис"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#шрек"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эдди_мерфи"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эндрю_адамсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#энни_потс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эрик_адаль"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эрик_дапкевич"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эрик_фон_деттен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shrek!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#ast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#студия_анимации"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#egmont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#etranges_libellules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#exmo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компьютерная_игра"/>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компьютерная_игра"/>
+        <NamedIndividual IRI="#madagascar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компьютерная_игра"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#студия_анимации"/>
+        <NamedIndividual IRI="#paramount_pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#студия_анимации"/>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компьютерная_игра"/>
+        <NamedIndividual IRI="#shrek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компьютерная_игра"/>
+        <NamedIndividual IRI="#toy_story"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#toys_for_bob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#студия_анимации"/>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#алек_соколов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#звукооператор"/>
+        <NamedIndividual IRI="#аль_нельсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#америка_феррера"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#звукооператор"/>
+        <NamedIndividual IRI="#анна_бельмер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#арон_уорнер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#бен_стиллер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#вики_дженсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#композитор"/>
+        <NamedIndividual IRI="#генри_джекман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#гийом_аретос"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#гленн_бергер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#джада_пинкетт-смитт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#джей_барушель"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#джерард_батлер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#джим_варни"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#джо_стиллман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#джон_лассетер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#джон_литгоу"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#композитор"/>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#джосс_уидон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#дин_деблуа"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#дон_риклс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#дэвид_джеймс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#дэвид_швиммер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#мультфильм"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#мультфильм"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#камерон_диас"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#кифер_сазерленд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#клэр_найт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#крессида_коуэлл"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#крис_рок"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#крис_сандерс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#кэти_дубовски"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#латифа_оау"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#ли_анкрич"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#лиза_стюарт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#мультфильм"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#майкл_дж.флексер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#майкл_майерс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#майя_форбс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#марианн_брэндон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#марк_бертон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#марк_хаймен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#мирей_сория"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#мультфильм"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#пьер-оливье_винсент"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#ральф_эгглстон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#риз_уизерспун"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#звукооператор"/>
+        <NamedIndividual IRI="#ричард_андерсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#роб_леттерман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#рой_ли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#рэйн_уилсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#композитор"/>
+        <NamedIndividual IRI="#рэнди_ньюман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#сет_роген"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#сим_эван-джонс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#стив_джобс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#стивен_колберт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#стивен_спилберг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#сюзан_кормен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#сюзанн_берги"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#терри_россио"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#тим_аллен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюссер"/>
+        <NamedIndividual IRI="#тим_джонсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#звукооператор"/>
+        <NamedIndividual IRI="#тим_холлэнд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#том_макграт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#том_хэнкс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#уилл_арнетт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#уильям_стейт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#уоллес_шон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#композитор"/>
+        <NamedIndividual IRI="#ханс_циммер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#хью_лори"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#шеннон_джеффрис"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#мультфильм"/>
+        <NamedIndividual IRI="#шрек"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#эдди_мерфи"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#эндрю_адамсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#энни_потс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#звукооператор"/>
+        <NamedIndividual IRI="#эрик_адаль"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#эрик_дапкевич"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер_озвучки"/>
+        <NamedIndividual IRI="#эрик_фон_деттен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#shrek!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+        <NamedIndividual IRI="#etranges_libellules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#madagascar"/>
+        <NamedIndividual IRI="#toys_for_bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#shrek"/>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#toy_story"/>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#тим_холлэнд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#toy_story"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#рэнди_ньюман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#алек_соколов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#джосс_уидон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#джим_варни"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#дон_риклс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#тим_аллен"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#том_хэнкс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#уоллес_шон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#энни_потс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#ли_анкрич"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#ральф_эгглстон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#стив_джобс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#джон_лассетер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+        <NamedIndividual IRI="#ast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+        <NamedIndividual IRI="#кэти_дубовски"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#аль_нельсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#дин_деблуа"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#крис_сандерс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#марк_хаймен"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#америка_феррера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#джей_барушель"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#джерард_батлер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#марианн_брэндон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#пьер-оливье_винсент"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#дин_деблуа"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#крис_сандерс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#анна_бельмер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#ричард_андерсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#madagascar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#ханс_циммер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#марк_бертон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#том_макграт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#бен_стиллер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#джада_пинкетт-смитт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#дэвид_швиммер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#крис_рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#клэр_найт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#шеннон_джеффрис"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#мирей_сория"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#том_макграт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <NamedIndividual IRI="#ast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <NamedIndividual IRI="#майкл_дж.флексер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#эрик_адаль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#генри_джекман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#гленн_бергер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#майя_форбс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#роб_леттерман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#кифер_сазерленд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#риз_уизерспун"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#рэйн_уилсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#сет_роген"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#стивен_колберт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#уилл_арнетт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#хью_лори"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#paramount_pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#эрик_дапкевич"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#дэвид_джеймс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#латифа_оау"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#лиза_стюарт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+        <NamedIndividual IRI="#exmo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+        <NamedIndividual IRI="#сюзан_кормен"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#записал_звук"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#анна_бельмер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#shrek"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#джо_стиллман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#терри_россио"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#джон_литгоу"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#камерон_диас"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#майкл_майерс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#озвучил"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#эдди_мерфи"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#сим_эван-джонс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#гийом_аретос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#арон_уорнер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#стивен_спилберг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#терри_россио"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#вики_дженсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#шрек"/>
+        <NamedIndividual IRI="#эндрю_адамсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#shrek!"/>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#shrek!"/>
+        <NamedIndividual IRI="#уильям_стейт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <NamedIndividual IRI="#egmont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <NamedIndividual IRI="#крессида_коуэлл"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#ast"/>
+        <Literal>Москва</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <NamedIndividual IRI="#ast"/>
+        <Literal>04.06.1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_издательства"/>
+        <NamedIndividual IRI="#ast"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+        <Literal>29.03.2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+        <Literal>джо голдман</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <NamedIndividual IRI="#beenox_amaze_entertainment"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+        <Literal>21.07.1992</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+        <Literal>Сара Янсон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <NamedIndividual IRI="#digital_illusions_ce"/>
+        <Literal>Швеция</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+        <Literal>12.10.1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+        <Literal>джеффри катценберг</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <NamedIndividual IRI="#dreamworks_animation"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#egmont"/>
+        <Literal>Санкт-Петербург</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <NamedIndividual IRI="#egmont"/>
+        <Literal>03.06.1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_издательства"/>
+        <NamedIndividual IRI="#egmont"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <NamedIndividual IRI="#etranges_libellules"/>
+        <Literal>01.01.1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <NamedIndividual IRI="#etranges_libellules"/>
+        <Literal>фредерик бланк</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <NamedIndividual IRI="#etranges_libellules"/>
+        <Literal>Франция</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#exmo"/>
+        <Literal>Москва</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <NamedIndividual IRI="#exmo"/>
+        <Literal>15.11.1991</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_издательства"/>
+        <NamedIndividual IRI="#exmo"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+        <Literal>23.03.2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#how_to_train_your_dragon"/>
+        <Literal>приключенческий боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <NamedIndividual IRI="#madagascar"/>
+        <Literal>23.05.2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#madagascar"/>
+        <Literal>приключенческий боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+        <Literal>24.03.2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#monsters_vs._aliens"/>
+        <Literal>приключенческий боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <NamedIndividual IRI="#paramount_pictures"/>
+        <Literal>08.05.1912</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <NamedIndividual IRI="#paramount_pictures"/>
+        <Literal>адольф цукор</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <NamedIndividual IRI="#paramount_pictures"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+        <Literal>19.11.1986</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+        <Literal>джим моррис</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <NamedIndividual IRI="#pixar_animation_studios"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+        <Literal>01.02.2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+        <Literal>мик хокинг</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <NamedIndividual IRI="#sce_studio_liverpool"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <NamedIndividual IRI="#shrek"/>
+        <Literal>15.11.2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#shrek"/>
+        <Literal>платформер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#shrek"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#shrek"/>
+        <Literal>экшен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <NamedIndividual IRI="#toy_story"/>
+        <Literal>23.05.1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_игры"/>
+        <NamedIndividual IRI="#toy_story"/>
+        <Literal>платформер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <NamedIndividual IRI="#toys_for_bob"/>
+        <Literal>01.03.1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <NamedIndividual IRI="#toys_for_bob"/>
+        <Literal>пол ян</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <NamedIndividual IRI="#toys_for_bob"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+        <Literal>16.10.1923</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+        <Literal>боб айгер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <NamedIndividual IRI="#walt_disney_pictures"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#алек_соколов"/>
+        <Literal>21.04.1979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#алек_соколов"/>
+        <Literal>Польша</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <NamedIndividual IRI="#аль_нельсон"/>
+        <Literal>04.02.1964</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <NamedIndividual IRI="#аль_нельсон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#америка_феррера"/>
+        <Literal>18.04.1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#америка_феррера"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <NamedIndividual IRI="#анна_бельмер"/>
+        <Literal>05.05.1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <NamedIndividual IRI="#анна_бельмер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#арон_уорнер"/>
+        <Literal>25.03.1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#арон_уорнер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#бен_стиллер"/>
+        <Literal>30.11.1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#бен_стиллер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+        <Literal>19.05.1955</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#бонни_арнольд"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#вики_дженсон"/>
+        <Literal>04.03.1960</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#вики_дженсон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <NamedIndividual IRI="#генри_джекман"/>
+        <Literal>01.04.1979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_композитора"/>
+        <NamedIndividual IRI="#генри_джекман"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <NamedIndividual IRI="#гийом_аретос"/>
+        <Literal>05.02.1977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <NamedIndividual IRI="#гийом_аретос"/>
+        <Literal>Греция</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#гленн_бергер"/>
+        <Literal>14.12.1977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#гленн_бергер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#джада_пинкетт-смитт"/>
+        <Literal>18.09.1971</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#джада_пинкетт-смитт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#джей_барушель"/>
+        <Literal>09.04.1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#джей_барушель"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#джерард_батлер"/>
+        <Literal>13.11.1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#джерард_батлер"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#джим_варни"/>
+        <Literal>15.06.1949</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_актера_озвучки"/>
+        <NamedIndividual IRI="#джим_варни"/>
+        <Literal>10.02.2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#джим_варни"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#джо_стиллман"/>
+        <Literal>19.12.1993</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#джо_стиллман"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#джон_лассетер"/>
+        <Literal>01.01.1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#джон_лассетер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#джон_литгоу"/>
+        <Literal>19.10.1945</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#джон_литгоу"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+        <Literal>14.02.1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_композитора"/>
+        <NamedIndividual IRI="#джон_пауэлл"/>
+        <Literal>Румыния</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#джосс_уидон"/>
+        <Literal>10.11.1991</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#джосс_уидон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#дин_деблуа"/>
+        <Literal>07.07.1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#дин_деблуа"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#дон_риклс"/>
+        <Literal>08.05.1926</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_актера_озвучки"/>
+        <NamedIndividual IRI="#дон_риклс"/>
+        <Literal>06.04.2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#дон_риклс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <NamedIndividual IRI="#дэвид_джеймс"/>
+        <Literal>11.09.1978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <NamedIndividual IRI="#дэвид_джеймс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#дэвид_швиммер"/>
+        <Literal>02.11.1966</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#дэвид_швиммер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal>$30млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal>81мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal>комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#история_игрушек"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+        <Literal>12.12.2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+        <Literal>для детей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#история_игрушек_большой_побег"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>$165млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>98мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>семейный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#как_приручить_дракона"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#камерон_диас"/>
+        <Literal>30.09.1972</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#камерон_диас"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#кифер_сазерленд"/>
+        <Literal>21.12.1966</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#кифер_сазерленд"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <NamedIndividual IRI="#клэр_найт"/>
+        <Literal>02.06.1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+        <NamedIndividual IRI="#клэр_найт"/>
+        <Literal>05.09.2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_монтажера"/>
+        <NamedIndividual IRI="#клэр_найт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+        <Literal>11.07.1968</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#конрад_вернон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <NamedIndividual IRI="#крессида_коуэлл"/>
+        <Literal>15.04.1966</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_автора"/>
+        <NamedIndividual IRI="#крессида_коуэлл"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#крис_рок"/>
+        <Literal>07.02.1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#крис_рок"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#крис_сандерс"/>
+        <Literal>12.03.1962</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#крис_сандерс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <NamedIndividual IRI="#кэти_дубовски"/>
+        <Literal>01.04.1972</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_автора"/>
+        <NamedIndividual IRI="#кэти_дубовски"/>
+        <Literal>Польша</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#латифа_оау"/>
+        <Literal>13.12.1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#латифа_оау"/>
+        <Literal>Бразилия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <NamedIndividual IRI="#ли_анкрич"/>
+        <Literal>04.03.1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_монтажера"/>
+        <NamedIndividual IRI="#ли_анкрич"/>
+        <Literal>Польша</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#лиза_стюарт"/>
+        <Literal>06.09.1968</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#лиза_стюарт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>$45млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>82мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>реальные события</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>фильм-выживание</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#мадагаскар"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <Literal>12.03.2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <Literal>для детей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#мадагаскар_книга"/>
+        <Literal>фантастика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <NamedIndividual IRI="#майкл_дж.флексер"/>
+        <Literal>04.11.1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_автора"/>
+        <NamedIndividual IRI="#майкл_дж.флексер"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#майкл_майерс"/>
+        <Literal>23.05.1963</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#майкл_майерс"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#майя_форбс"/>
+        <Literal>01.01.1977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#майя_форбс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <NamedIndividual IRI="#марианн_брэндон"/>
+        <Literal>08.12.1976</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_монтажера"/>
+        <NamedIndividual IRI="#марианн_брэндон"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#марк_бертон"/>
+        <Literal>01.02.1977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#марк_бертон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#марк_хаймен"/>
+        <Literal>01.03.1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#марк_хаймен"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#мирей_сория"/>
+        <Literal>22.04.1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#мирей_сория"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>$175млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>94мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>фантастика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+        <Literal>10.10.2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#монстры_против_пришельцев_книга"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <NamedIndividual IRI="#пьер-оливье_винсент"/>
+        <Literal>09.08.1976</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <NamedIndividual IRI="#пьер-оливье_винсент"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <NamedIndividual IRI="#ральф_эгглстон"/>
+        <Literal>09.01.1978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <NamedIndividual IRI="#ральф_эгглстон"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#риз_уизерспун"/>
+        <Literal>22.03.1976</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#риз_уизерспун"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <NamedIndividual IRI="#ричард_андерсон"/>
+        <Literal>23.01.1950</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <NamedIndividual IRI="#ричард_андерсон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#роб_леттерман"/>
+        <Literal>31.10.1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+        <NamedIndividual IRI="#роб_леттерман"/>
+        <Literal>05.10.2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#роб_леттерман"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#рой_ли"/>
+        <Literal>23.03.1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#рой_ли"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#рэйн_уилсон"/>
+        <Literal>20.01.1966</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#рэйн_уилсон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <NamedIndividual IRI="#рэнди_ньюман"/>
+        <Literal>12.12.1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_композитора"/>
+        <NamedIndividual IRI="#рэнди_ньюман"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#сет_роген"/>
+        <Literal>15.04.1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#сет_роген"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <NamedIndividual IRI="#сим_эван-джонс"/>
+        <Literal>05.10.1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_монтажера"/>
+        <NamedIndividual IRI="#сим_эван-джонс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#стив_джобс"/>
+        <Literal>24.03.1955</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_продюссера"/>
+        <NamedIndividual IRI="#стив_джобс"/>
+        <Literal>05.10.2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#стив_джобс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#стивен_колберт"/>
+        <Literal>13.05.1964</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#стивен_колберт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#стивен_спилберг"/>
+        <Literal>18.12.1946</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#стивен_спилберг"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <NamedIndividual IRI="#сюзан_кормен"/>
+        <Literal>14.11.1980</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_автора"/>
+        <NamedIndividual IRI="#сюзан_кормен"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#сюзанн_берги"/>
+        <Literal>12.11.1979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#сюзанн_берги"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+        <Literal>04.07.1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <NamedIndividual IRI="#терри_россио"/>
+        <Literal>05.02.1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_сценариста"/>
+        <NamedIndividual IRI="#терри_россио"/>
+        <Literal>Италия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#тим_аллен"/>
+        <Literal>13.05.1953</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#тим_аллен"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <NamedIndividual IRI="#тим_джонсон"/>
+        <Literal>01.01.1949</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_продюссера"/>
+        <NamedIndividual IRI="#тим_джонсон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <NamedIndividual IRI="#тим_холлэнд"/>
+        <Literal>07.08.1978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <NamedIndividual IRI="#тим_холлэнд"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#том_макграт"/>
+        <Literal>07.09.1964</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#том_макграт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#том_хэнкс"/>
+        <Literal>09.07.1956</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#том_хэнкс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#уилл_арнетт"/>
+        <Literal>04.05.1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#уилл_арнетт"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <NamedIndividual IRI="#уильям_стейт"/>
+        <Literal>14.11.1907</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти_автора"/>
+        <NamedIndividual IRI="#уильям_стейт"/>
+        <Literal>03.10.2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_автора"/>
+        <NamedIndividual IRI="#уильям_стейт"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#уоллес_шон"/>
+        <Literal>12.11.1943</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#уоллес_шон"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <NamedIndividual IRI="#ханс_циммер"/>
+        <Literal>04.04.1977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_композитора"/>
+        <NamedIndividual IRI="#ханс_циммер"/>
+        <Literal>Германия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#хью_лори"/>
+        <Literal>11.06.1959</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#хью_лори"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <NamedIndividual IRI="#шеннон_джеффрис"/>
+        <Literal>01.01.1991</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <NamedIndividual IRI="#шеннон_джеффрис"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>$60млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>90мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#шрек"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#эдди_мерфи"/>
+        <Literal>03.04.1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#эдди_мерфи"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#эндрю_адамсон"/>
+        <Literal>01.12.1966</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#эндрю_адамсон"/>
+        <Literal>Новая Зеландия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#энни_потс"/>
+        <Literal>28.10.1952</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#энни_потс"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <NamedIndividual IRI="#эрик_адаль"/>
+        <Literal>16.09.1976</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <NamedIndividual IRI="#эрик_адаль"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <NamedIndividual IRI="#эрик_дапкевич"/>
+        <Literal>12.12.1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_монтажера"/>
+        <NamedIndividual IRI="#эрик_дапкевич"/>
+        <Literal>Канада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+        <Literal>28.03.1960</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_режиссера"/>
+        <NamedIndividual IRI="#эрик_дарнелл"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <NamedIndividual IRI="#эрик_фон_деттен"/>
+        <Literal>03.10.1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <NamedIndividual IRI="#эрик_фон_деттен"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+        <Literal>Нью-Йорк</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+        <Literal>07.12.1946</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна_издательства"/>
+        <NamedIndividual IRI="#farrar,_straus_and_giroux"/>
+        <Literal>США</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <NamedIndividual IRI="#shrek!"/>
+        <Literal>17.10.1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#shrek!"/>
+        <Literal>детская литература</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <Literal>09.12.2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <Literal>повесть</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр_книги"/>
+        <NamedIndividual IRI="#как_приручить_дракона_(иккинговы_войны)"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#записал_звук"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#играть"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#издал"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#написание_книги"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#озвучил"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#разработал"/>
+        <Class IRI="#компьютерная_игра"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#смонтировал"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#срежессировал"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#читать"/>
+        <Class IRI="#мультфильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#записал_звук"/>
+        <Class IRI="#звукооператор"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#играть"/>
+        <Class IRI="#компьютерная_игра"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#издал"/>
+        <Class IRI="#издательство"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#написал_мелодию"/>
+        <Class IRI="#композитор"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <Class IRI="#сценарист"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#написание_книги"/>
+        <Class IRI="#автор"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#озвучил"/>
+        <Class IRI="#актер_озвучки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#произвела_мультфильм"/>
+        <Class IRI="#студия_анимации"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#разработал"/>
+        <Class IRI="#компания_разработчиков"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#смонтировал"/>
+        <Class IRI="#монтажер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <Class IRI="#художник_постановщик"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#спродюссировал"/>
+        <Class IRI="#продюссер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#срежессировал"/>
+        <Class IRI="#режиссер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#читать"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#адрес"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#бюджет"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#год"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <Class IRI="#книга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <Class IRI="#компьютерная_игра"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#студия_анимации"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <Class IRI="#студия_анимации"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <Class IRI="#автор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <Class IRI="#актер_озвучки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <Class IRI="#звукооператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <Class IRI="#композитор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <Class IRI="#продюссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_автора"/>
+        <Class IRI="#автор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_актера_озвучки"/>
+        <Class IRI="#актер_озвучки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_звукооператора"/>
+        <Class IRI="#звукооператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_композитора"/>
+        <Class IRI="#композитор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_продюссера"/>
+        <Class IRI="#продюссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#длительность"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр_игры"/>
+        <Class IRI="#компьютерная_игра"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр_книги"/>
+        <Class IRI="#книга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <Class IRI="#студия_анимации"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_автора"/>
+        <Class IRI="#автор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <Class IRI="#актер_озвучки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <Class IRI="#звукооператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_издательства"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_композитора"/>
+        <Class IRI="#композитор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_монтажера"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_продюссера"/>
+        <Class IRI="#продюссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_режиссера"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <Class IRI="#студия_анимации"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_сценариста"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#язык"/>
+        <Class IRI="#мультфильм"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#адрес"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#бюджет"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#год"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_выхода_компьютерной_игры"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_студии_анимации"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_актера_озвучки"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_звукооператора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_композитора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_продюссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_автора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_актера_озвучки"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_звукооператора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_композитора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_продюссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#длительность"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#жанр_игры"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#жанр_книги"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#жанр_мультфильма"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ключевая_фигура_студии_анимации"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_автора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_актера_озвучки"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_звукооператора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_издательства"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_компании_разработчиков"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_композитора"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_монтажера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_мультфильма"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_продюссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_режиссера"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_студии_анимации"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_сценариста"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#страна_художника_постановщика"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#язык"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
